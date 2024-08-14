@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math/rand/v2"
 	"testing"
 )
@@ -15,5 +14,4 @@ func TestLuckyNumbers(t *testing.T) {
 			matrix[i] = append(matrix[i], rand.IntN(10000))
 		}
 	}
-	fmt.Print(matrix)
 }
