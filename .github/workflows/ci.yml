@@ -1,0 +1,23 @@
+name: ci-test
+
+on:
+  push: 
+    branches: [ Go, Python ]
+  pull_request:
+    branches: [ Go, Python ]
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.22'
+      id: go 
+
+    - name: Test
+      run: make test
