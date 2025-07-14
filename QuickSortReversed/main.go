@@ -1,10 +1,3 @@
-/*
- * @Author: MohammadReza Zarindast
- * @Date: 2024-10-11 14:49:25
- * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2024-10-11 14:53:55
- */
-
 package main
 
 import "fmt"

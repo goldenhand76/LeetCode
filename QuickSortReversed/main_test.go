@@ -1,9 +1,3 @@
-/*
- * @Author: MohammadReza Zarindast
- * @Date: 2024-10-11 14:54:03
- * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2024-10-11 14:54:27
- */
 package main
 
 import (
